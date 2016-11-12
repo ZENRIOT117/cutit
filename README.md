@@ -21,9 +21,9 @@ USING THE TOOL
 2. You will need to define an output directory for the tool to place the files in. One has been provided for you ( the 'out' folder ), but if you wish to use your own output directory, you are free to do so. Remember the path to this directory as you will need it later when you are executing the program.
 3. Now, find an album on YouTube that you wish to download. Copy the video slug ( everything after 'v=' and before the next '&' if there is one) and paste it somewhere for the moment. If you have already downloaded the video, simply make note of the file path/name.
 4. Next, find the "starting points" of each song within the video. These can usually be found in the description of the video, or in some helpful comment in the comment section. If you cannot find them there, you can easily look up the album and compute each offset manually. Place these "start points" into a text file ( One called 'tracks.txt' has been provided for your use) in the order of their occurrence. You can also include song names, if you so choose. Format the file exactly like this:
-
-	```
+	
 	With song names:
+	```
 	0:00 Mountain Heart 
 	6:02 Black Slug 
 	11:06 Movements In The Sky 
@@ -32,8 +32,8 @@ USING THE TOOL
 	22:51 Watch It Grow 
 	26:50 Evil In Your Eye
 	```
-	```
 	Without song names:
+	```
 	0:00
 	6:02
 	11:06
