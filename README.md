@@ -10,6 +10,7 @@ INSTALLATION
 ==================================
 1. Extract all files from the archive to an empty directory. This will be your "Working directory".
 2. The application requires the user to have python installed and uses several libraries, if you do not have all of these installed, follow the links below to download and install them.
+
 	https://www.python.org/downloads/
 	http://zulko.github.io/moviepy/
 	https://github.com/nficano/pytube
@@ -23,13 +24,13 @@ USING THE TOOL
 4. Next, find the "starting points" of each song within the video. These can usually be found in the description of the video, or in some helpful comment in the comment section. If you cannot find them there, you can easily look up the album and compute each offset manually. Place these "start points" into a text file ( One called 'tracks.txt' has been provided for your use) in the order of their occurrence. You can also include song names, if you so choose. Format the file exactly like this:
 
 	With song names:
-	0:00 Mountain Heart
-	6:02 Black Slug
-	11:06 Movements In The Sky
-	14:36 Answers In Your Soul
-	18:33 Is Satan Real
-	22:51 Watch It Grow
-	26:50 Evil In Your Eye
+	0:00 Mountain Heart 
+	6:02 Black Slug 
+	11:06 Movements In The Sky 
+	14:36 Answers In Your Soul 
+	18:33 Is Satan Real 
+	22:51 Watch It Grow 
+	26:50 Evil In Your Eye 
 
 	Without song names:
 	0:00
