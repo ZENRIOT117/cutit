@@ -10,9 +10,9 @@ INSTALLATION
 1. Extract all files from the archive to an empty directory. This will be your "Working directory".
 2. The application requires the user to have python installed and uses several libraries, if you do not have all of these installed, follow the links below to download and install them.
 
-	https://www.python.org/downloads/
-	http://zulko.github.io/moviepy/
-	https://github.com/nficano/pytube
+	+ https://www.python.org/downloads/
+	+ http://zulko.github.io/moviepy/
+	+ https://github.com/nficano/pytube
 
 ==================================
 USING THE TOOL
