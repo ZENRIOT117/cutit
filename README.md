@@ -2,7 +2,7 @@
 CutIt.py (c) 2016 Zachary Nichols
 ==================================
 
-This is a tool to help users download a YouTube video of a "full album" (all songs from a musical album condensed into a single video with no overlap or extra time added) and format it into a folder of the individual songs on the album.
+This is a tool to help users download a YouTube video of a "full album" (all songs from a musical album condensed into a single video with no overlap or extra time added) and format it into a folder of the individual songs on the album. THIS TOOL IS MEANT TO HELP USERS WHO HAVE PERMISSION TO USE THE CONTENT OF OTHERS. I WILL NOT BE HELD ACCOUNTABLE FOR ANY COPYRIGHT INFRINGING ACTIVITY THAT MAY IMPLEMENT THIS TOOL.
 
 ==================================
 INSTALLATION
