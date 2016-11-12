@@ -25,8 +25,13 @@ def main():
     time = tmp[0]
     names = tmp[1]
     if args.offline:
-        clip = mp.VideoFileClip(args.filename).subclip(time[len(list(time.keys()))])
-        write_clip(args.filename, args.output, time, names, len(list(time.keys())), clip)
+        if os.path.exists(args.filename):
+            print("Converting Previously Downloaded Video: " + args.filename)
+            clip = mp.VideoFileClip(args.filename).subclip(0)
+            write_clip(args.filename, args.output, time, names, len(list(time.keys())), clip)
+        else:
+            sys.stderr.write("Error: " + args.filename + " does not exist")
+            exit()
     else:
         getvid(args.filename)
         print("Download Finished Successfully")
