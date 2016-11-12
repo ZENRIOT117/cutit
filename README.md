@@ -44,9 +44,11 @@ USING THE TOOL
 	```
 5. Now that you have completed your setup, you can run the command line application. The usage for the program is as follows:
 
-    To download and extract songs from a video:
+   	To download and extract songs from a video:
+	```
 	python cutit.py -s <track list file> <YouTube slug> <output directory>
-
-	To extract songs from a previously downloaded video
+	```
+	To extract songs from a previously downloaded video:
+	```
 	python cutit.py -o -s <track list file> <input video file name> <output directory>
-
+	```
